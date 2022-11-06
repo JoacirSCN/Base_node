@@ -11,4 +11,4 @@ async function sqliteConnection() {
   return database;
 }
 
-module.exports = sqliteConnection;
+module.exports = sqliteConnection; // Daqui, vá no server.js para iniciar o arquivo que ira guardar nossos dados
